@@ -1,0 +1,111 @@
+.footer-bg {
+  background-color: $blue-dark;
+
+  .footer {
+    padding-top: 9.2rem;
+    padding-bottom: 8.6rem;
+
+    @include responsive(s) {
+      padding-top: 6.5rem;
+      padding-bottom: 4.2rem;
+    }
+
+    .logo {
+      margin-bottom: 3.6rem;
+    }
+
+    .links {
+      display: flex;
+      align-items: start;
+
+      @include responsive(s) {
+        flex-direction: column;
+      }
+
+      ul {
+        li {
+          margin-bottom: 1.6rem;
+        }
+      }
+
+      .first-column {
+        flex: 2;
+
+        @include responsive(s) {
+          margin-bottom: 3.2rem;
+        }
+
+        li {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+          }
+        }
+      }
+
+      .second-column {
+        flex: 1;
+
+        @include responsive(s) {
+          margin-bottom: 3.2rem;
+        }
+      }
+
+      .third-column {
+        flex: 1;
+
+        @include responsive(s) {
+          margin-bottom: 3.2rem;
+        }
+      }
+
+      .fourth-column {
+        flex: 1;
+
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+
+        @include responsive(s) {
+          align-self: center;
+        }
+
+        li {
+          a {
+            border: 0.1rem solid $gray-3;
+            width: 3.2rem;
+            height: 3.2rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+
+            transition: 0.3s ease;
+            svg {
+              path {
+                fill: $white;
+                transition: 0.3s ease;
+              }
+            }
+          }
+
+          &:hover {
+            a {
+              border-color: $blue-light;
+            }
+
+            a {
+              svg {
+                path {
+                  fill: $blue-light;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

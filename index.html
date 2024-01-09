@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Fylo Landing Page With Two Column Layout</title>
+
+  <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="./js/svg-inject.min.js"></script>
+</head>
+
+<body>
+  <header class="header container">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Logo Fylo" width="166" height="49">
+    </div>
+
+    <nav class=" navbar">
+      <a href="./" class="h4 blue-dark" aria-label="Feature">Features</a>
+      <a href="./" class="h4 blue-dark" aria-label="Team">Team</a>
+      <a href="./" class="h4 blue-dark" aria-label="Sign In">Sign In</a>
+    </nav>
+  </header>
+
+  <main class="hero container">
+    <div class="content">
+      <h1 class="h1 blue-dark">All your files in one secure location, accessible anywhere.</h1>
+      <p class="b1 blue-dark">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+
+      <form class="form">
+        <div class="email">
+          <label for="email-hero">Email</label>
+          <input type="email" id="email-hero" class="email" placeholder="Enter your email…">
+          <p class="info">Please check your email</p>
+        </div>
+        <button class="btn-form" aria-label="Get Started">Get Started</button>
+      </form>
+    </div>
+
+    <div class="image">
+      <img src="./images/illustration-1.svg">
+    </div>
+  </main>
+
+  <section class="productive-bg" aria-label="Productive">
+    <div class="productive container">
+      <div class="content">
+        <h2 class="h2 blue-dark">Stay productive, wherever you are</h2>
+        <p class="b1 blue-dark">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p class="b1 blue-dark last">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+        <a href="./" class="btn-works">See how Fylo works <span><img src="./images/icon-arrow.svg" alt="" onload="SVGInject(this)"></span></a>
+
+        <div class="testimonials">
+          <img class="quote" src="./images/icon-quotes.svg" alt="">
+          <p class="b2 blue-dark">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+
+          <div class="person">
+            <img src="./images/avatar-testimonial.jpg" alt="">
+
+            <ul>
+              <li class="name b3 blue-dark">Kyle Burton</li>
+              <li class="occupation b4 blue-dark">Founder & CEO, Huddle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="./images/illustration-2.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-bg">
+    <div class="newsletter container">
+      <div class="content">
+        <h2 class="h2 white">Get early access today</h2>
+        <p class="b2 white">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+      </div>
+
+      <form class="form">
+        <div class="email">
+          <label for="email-newsletter">Email</label>
+          <input type="email" id="email-newsletter" class="email" placeholder="Enter your email…">
+          <p class="info">Please check your email</p>
+        </div>
+        <button class="btn-form" aria-label="Get Started">Get Started For Free</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <div class="logo">
+        <img src="./images/logo-white.svg" alt="">
+      </div>
+
+      <div class="links">
+        <ul class="first-column">
+          <li><a href="./" class="btn-link"><img src="./images/icon-phone.svg" alt="">Phone: +1-543-123-4567</a></li>
+          <li><a href="./" class="btn-link"><img src="./images/icon-email.svg" alt="">example@fylo.com</a></li>
+        </ul>
+
+        <ul class="second-column">
+          <li><a href="./" class="btn-link">About Us</a></li>
+          <li><a href="./" class="btn-link">Jobs</a></li>
+          <li><a href="./" class="btn-link">Press</a></li>
+          <li><a href="./" class="btn-link">Blog</a></li>
+        </ul>
+
+        <ul class="third-column">
+          <li><a href="./" class="btn-link">Contact Us</a></li>
+          <li><a href="./" class="btn-link">Terms</a></li>
+          <li><a href="./" class="btn-link">Privacy</a></li>
+        </ul>
+
+        <ul class="fourth-column">
+          <li><a href="https://facebook.com"><img src="./images/icon-facebook.svg" alt="" onload="SVGInject(this)"></a></li>
+          <li><a href="https://twitter.com"><img src="./images/icon-twitter.svg" alt="" onload="SVGInject(this)"></a></li>
+          <li><a href="https://instagram.com"><img src="./images/icon-instagram.svg" alt="" onload="SVGInject(this)"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

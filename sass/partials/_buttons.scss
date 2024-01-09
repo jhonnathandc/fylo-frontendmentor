@@ -1,0 +1,95 @@
+.btn-form {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: $white;
+
+  width: 20rem;
+  height: 4.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $blue-normal;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+  filter: drop-shadow(0.2rem 0.3rem 0.6rem rgba(0, 0, 0, 0.16));
+
+  @include responsive(xs) {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $blue-light;
+  }
+}
+
+.btn-works {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $green-normal;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  position: relative;
+  transition: 0.3s ease;
+
+  @include responsive(xs) {
+    font-size: 1.2rem;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 17rem;
+    height: 0.1rem;
+    background-color: $green-normal;
+    position: absolute;
+    bottom: -0.4rem;
+    transition: 0.3s ease;
+  }
+
+  svg {
+    use {
+      fill: $green-normal;
+      transition: 0.3s ease;
+    }
+  }
+
+  &:hover {
+    color: $green-light;
+
+    &::after {
+      background-color: $green-light;
+    }
+
+    svg {
+      use {
+        fill: $green-light;
+      }
+    }
+  }
+}
+
+.btn-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: $white;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  transition: 0.3s ease;
+
+  &:hover {
+    color: $blue-light;
+  }
+}
