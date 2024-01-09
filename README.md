@@ -1,15 +1,15 @@
-# 3-column Preview Card Component - FrontEnd Mentor
+# Fylo Landing Page With Two Column Layout - FrontEnd Mentor
 
 This project is part of the challenges of [FrontEnd Mentor](https://www.frontendmentor.io/).
 
-[Access the deploy here.](https://nftpreview-frontendmentor.vercel.app/)
+[Access the deploy here.](https://fylo-frontendmentor-one.vercel.app/)
 <br>
 <br>
-[Access the challenge on the FrontEnd Mentor here.](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+[Access the challenge on the FrontEnd Mentor here.](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
 
 ## Demonstration
+![Desktop + Mobile - 2](https://github.com/jhonnathandc/fylo-frontendmentor/assets/82620787/90186b2e-15cc-42b5-a8ee-7724936fc05c)
 
-![Wireframe - 1](https://user-images.githubusercontent.com/82620787/235288053-9179feed-ce48-4712-96ce-f4a5fb2d3bfb.png)
 
 ## More Informations
 
@@ -17,10 +17,12 @@ It was built as proposed in the design, using:
 
 - HTML
 - CSS
+- JavaScript
+- SASS
 
 ## Stack
 
-**Front-end:** HTML, CSS
+**Front-end:** HTML, CSS, JavaScript, SASS
 
 ## License
 
